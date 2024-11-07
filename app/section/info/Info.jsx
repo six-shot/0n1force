@@ -110,18 +110,18 @@ export default function Info() {
 
             {/* Fourth item - much longer height */}
             <div className="bg-[#222]  w-full rounded-[16px]">
-              <Image src={five} className="w-full h-[223px]" alt="eight" />
+              <Image src={five} className="w-full h-[225px]" alt="eight" />
               <div className="w-full py-8 text-white">
                 <h4 className="text-[40px] font-medium font-orbitron px-8">
                   0N1 FRAMES
                 </h4>
-                <p className="text-[20px] font-inconsolata font-medium  px-8 ">
+                <p className="text-[20px] font-inconsolata font-medium  px-8 mt-2">
                   THE ORIGINAL 0N1 FORCE NFTS ARE THE KEY:As long as you own{" "}
-                  <br /> an original 0N1, the 0N1 FRAMES are free to claim + gas
+                  <br /> an original 0N1, the 0N1 FRAMES are free to claim + gas.
                 </p>
-                <div className="px-8">
+                <div className="px-8 mt-1">
                   {" "}
-                  <button className="bg-primary px-8 h-[56px] font-inconsolata text-[20px] rounded-[61px] font-medium mt-8">
+                  <button className=" mb-1 bg-primary px-8 h-[56px] font-inconsolata text-[20px] rounded-[61px] font-medium mt-8">
                     Know more
                   </button>
                 </div>
