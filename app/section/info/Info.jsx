@@ -39,7 +39,7 @@ export default function Info() {
       <div className=" pt-4">
         <div className="grid grid-cols-11 gap-4">
           {/* First column - container for first and third items */}
-          <div className="flex flex-col gap-4 col-span-6">
+          <div className="flex flex-col gap-4 col-span-5">
             {/* First item - shorter height */}
             <div className="bg-[#222]  w-full rounded-[16px]">
               <Image src={two} className="w-full h-[355px]" alt="eight" />
@@ -81,7 +81,7 @@ export default function Info() {
           </div>
 
           {/* Second column - container for second and fourth items */}
-          <div className="flex flex-col gap-4 col-span-5 ">
+          <div className="flex flex-col gap-4 col-span-6 ">
             {/* Second item - medium height */}
             <div className="bg-[#222] rounded-[16px]">
               <Image src={three} className="w-full h-[376px]" alt="eight" />
