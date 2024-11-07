@@ -6,7 +6,14 @@ import three from "@/public/nine.png";
 import four from "@/public/four.png";
 import five from "@/public/five.png";
 import person1 from "@/public/person1.png";
-
+import person2 from "@/public/person2.png";
+import person3 from "@/public/person3.png";
+import person4 from "@/public/person4.png";
+import person5 from "@/public/person5.png";
+import person6 from "@/public/person6.png";
+import person7 from "@/public/person7.png";
+import person8 from "@/public/person8.png";
+import person9 from "@/public/person9.png";
 export default function Info() {
   return (
     <div className="px-8">
@@ -25,7 +32,7 @@ export default function Info() {
           </button>
         </div>
         <div className="col-span-6">
-          <Image src={one} alt="one" />
+          <Image src={one} className="h-full" alt="one" />
         </div>
       </div>
       <div className="grid grid-cols-11 items-start gap-4 mt-4">
@@ -68,12 +75,14 @@ export default function Info() {
             <Image src={four} className="w-full h-[369px]" alt="eight" />
           </div>
 
-          <div className="p-8 text-white bg-[#222] ">
+          <div className="p-8 text-white bg-[#222]  rounded-b-[16px]">
             <h4 className="text-[40px] font-medium font-orbitron">COMIC</h4>
-            <p className="text-[20px] font-inconsolata font-medium ">
-              Cromagnus, an in-house illustrator for the 0N1 Force project, is
-              currently working with Josh Blaylock to bring this world to life
-              through an exclusive digital comic.
+            <p className="text-[20px] font-inconsolata font-medium  w-[468px]">
+              <span className="text-primary">Cromagnus</span>, an in-house
+              illustrator for the 0N1 Force project, is currently working with
+              <span className="text-primary">Josh</span>{" "}
+              <span className="text-primary">Blaylock</span> to bring this world
+              to life through an exclusive digital comic.
             </p>
           </div>
         </div>
@@ -105,56 +114,56 @@ export default function Info() {
             </div>
             <div className="w-full h-[258px] rounded-[8px]">
               <Image
-                src={person1}
+                src={person2}
                 className="w-full h-full rounded-[8px]"
                 alt="person"
               />
             </div>
             <div className="w-full h-[258px] rounded-[8px]">
               <Image
-                src={person1}
+                src={person3}
                 className="w-full h-full rounded-[8px]"
                 alt="person"
               />
             </div>
             <div className="w-full h-[258px] rounded-[8px]">
               <Image
-                src={person1}
+                src={person4}
                 className="w-full h-full rounded-[8px]"
                 alt="person"
               />
             </div>
             <div className="w-full h-[258px] rounded-[8px]">
               <Image
-                src={person1}
+                src={person5}
                 className="w-full h-full rounded-[8px]"
                 alt="person"
               />
             </div>
             <div className="w-full h-[258px] rounded-[8px]">
               <Image
-                src={person1}
+                src={person6}
                 className="w-full h-full rounded-[8px]"
                 alt="person"
               />
             </div>
             <div className="w-full h-[258px] rounded-[8px]">
               <Image
-                src={person1}
+                src={person7}
                 className="w-full h-full rounded-[8px]"
                 alt="person"
               />
             </div>
             <div className="w-full h-[258px] rounded-[8px]">
               <Image
-                src={person1}
+                src={person8}
                 className="w-full h-full rounded-[8px]"
                 alt="person"
               />
             </div>
             <div className="w-full h-[258px] rounded-[8px]">
               <Image
-                src={person1}
+                src={person9}
                 className="w-full h-full rounded-[8px]"
                 alt="person"
               />
