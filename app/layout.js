@@ -1,16 +1,9 @@
 import localFont from "next/font/local";
+import { Orbitron, Inconsolata } from "next/font/google";
 import "./globals.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+const orbitron = Orbitron({subsets:["latin"], variable:"--font-orbitron"});
+const inconsolata = Inconsolata({subsets:["latin"], variable:"--font-inconsolata"})
 
 export const metadata = {
   title: "Create Next App",
@@ -21,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${orbitron.variable} ${inconsolata.variable} antialiased`}
       >
         {children}
       </body>

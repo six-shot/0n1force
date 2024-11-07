@@ -7,9 +7,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        orbitron: ["var(--font-orbitron)"],
+        inconsolata: ["var(--font-inconsolata)"],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        black: {
+          DEFAULT: "#000000",
+          200: "#171717",
+          600: "#222",
+        },
+        primary: "#EB5855",
       },
     },
   },
