@@ -13,7 +13,7 @@ export default function Footer() {
           </div>
           <h5>Terms & Use</h5>
         </div>
-        <div className="flex justify-between items-center mt-2">
+        <div className="flex justify-between items-center mt-4">
           <p className="text-xs">Copyright © 0N1 Force, Inc. 2023</p>
           <Image className="w-[40px] h-[40px]" src={logo} alt="logo" />
         </div>

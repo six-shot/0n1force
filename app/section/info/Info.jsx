@@ -203,7 +203,7 @@ export default function Info() {
             <h4 className="text-[40px] font-medium font-orbitron">
               JOIN THE 0N1 FORCE
             </h4>
-            <p className="text-[20px] font-inconsolata font-medium ">
+            <p className="text-[20px] font-inconsolata font-medium mt-3">
               The 0N1 Force are 7,777 generative side-profile characters with
               over 100 hand-drawn features fighting for their existence.
               Strength, spirit, and style are what you’ll need to survive in The
