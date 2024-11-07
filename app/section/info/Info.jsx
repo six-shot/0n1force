@@ -28,77 +28,101 @@ export default function Info() {
             comic, and future Metaverse utility.
           </p>
           <button className="bg-primary px-8 h-[56px] font-inconsolata text-[20px] rounded-[61px] font-medium mt-8">
-            Enter The 0N1VERSE{" "}
+            Enter The 0N1VERSE
           </button>
         </div>
         <div className="col-span-6">
           <Image src={one} className="h-full" alt="one" />
         </div>
       </div>
-      <div className="grid grid-cols-11 items-start gap-4 mt-4">
-        <div className="col-span-5 bg-[#222] w-full rounded-[16px]">
-          <Image src={two} className="w-full h-[355px]" alt="eight" />
-          <div className="p-8 text-white">
-            <h4 className="text-[40px] font-medium font-orbitron">
-              Marketplace
-            </h4>
-            <p className="text-[20px] font-inconsolata font-medium ">
-              0N1 FORCE and Origin Protocol are rewarding active community
-              members
-            </p>
-            <button className="bg-primary px-8 h-[56px] font-inconsolata text-[20px] rounded-[61px] font-medium mt-8">
-              Go to Marketplace
-            </button>
-          </div>
-        </div>
-        <div className="col-span-6 bg-[#222] rounded-[16px]">
-          <Image src={three} className="w-full h-[376px]" alt="eight" />
-          <div className="p-8 text-white">
-            <h4 className="text-[40px] font-medium font-orbitron">
-              THE 0N1VERSE
-            </h4>
-            <p className="text-[20px] font-inconsolata font-medium w-[604px]">
-              0N1 Force sees the future of NFT ownership as cross-platform. We
-              envision a digital social network with no boundaries.The Ethereal
-              Enclave, within the 0N1VERSE, is an endless city, and it is the
-              place where the 0N1 call home.
-            </p>
-            <button className="bg-primary px-8 h-[56px] font-inconsolata text-[20px] rounded-[61px] font-medium mt-8">
-              See Lore
-            </button>
-          </div>
-        </div>
-      </div>
-      <div className="grid grid-cols-11 items-start gap-4 mt-4">
-        <div className="col-span-5  w-full rounded-[16px]">
-          <div className="bg-[#171717]">
-            <Image src={four} className="w-full h-[369px]" alt="eight" />
+
+      <div className=" pt-4">
+        <div className="grid grid-cols-11 gap-4">
+          {/* First column - container for first and third items */}
+          <div className="flex flex-col gap-4 col-span-6">
+            {/* First item - shorter height */}
+            <div className="bg-[#222]  w-full rounded-[16px]">
+              <Image src={two} className="w-full h-[355px]" alt="eight" />
+              <div className="py-8 text-white">
+                <h4 className="text-[40px] font-medium font-orbitron px-8">
+                  Marketplace
+                </h4>
+                <p className="text-[20px] font-inconsolata font-medium px-8 ">
+                  0N1 FORCE and Origin Protocol are rewarding active community
+                  members
+                </p>
+                
+                <div className="px-8">
+                  {" "}
+                  <button className="bg-primary px-8 h-[56px] font-inconsolata text-[20px] rounded-[61px] font-medium mt-8">
+                    Go to Marketplace
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            {/* Third item - medium-long height */}
+            <div className=" rounded-[16px]">
+              <div className="bg-[#171717]">
+                <Image src={four} className="w-full h-[369px]" alt="eight" />
+              </div>
+              <div className="py-8 text-white bg-[#222]  rounded-b-[16px]">
+                <h4 className="text-[40px] font-medium font-orbitron px-8">COMIC</h4>
+                <p className="text-[20px] font-inconsolata font-medium px-8  w-[468px]">
+                  <span className="text-primary">Cromagnus</span>, an in-house
+                  illustrator for the 0N1 Force project, is currently working
+                  with
+                  <span className="text-primary">Josh</span>{" "}
+                  <span className="text-primary">Blaylock</span> to bring this
+                  world to life through an exclusive digital comic.
+                </p>
+              </div>
+            </div>
           </div>
 
-          <div className="p-8 text-white bg-[#222]  rounded-b-[16px]">
-            <h4 className="text-[40px] font-medium font-orbitron">COMIC</h4>
-            <p className="text-[20px] font-inconsolata font-medium  w-[468px]">
-              <span className="text-primary">Cromagnus</span>, an in-house
-              illustrator for the 0N1 Force project, is currently working with
-              <span className="text-primary">Josh</span>{" "}
-              <span className="text-primary">Blaylock</span> to bring this world
-              to life through an exclusive digital comic.
-            </p>
-          </div>
-        </div>
-        <div className="col-span-6 bg-[#222] rounded-[16px]">
-          <Image src={five} className="w-full h-[223px]" alt="eight" />
-          <div className="p-8 text-white">
-            <h4 className="text-[40px] font-medium font-orbitron">
-              0N1 FRAMES
-            </h4>
-            <p className="text-[20px] font-inconsolata font-medium w-[604px]">
-              THE ORIGINAL 0N1 FORCE NFTS ARE THE KEY:As long as you own an
-              original 0N1, the 0N1 FRAMES are free to claim + gas.
-            </p>
-            <button className="bg-primary px-8 h-[56px] font-inconsolata text-[20px] rounded-[61px] font-medium mt-8">
-              Know more
-            </button>
+          {/* Second column - container for second and fourth items */}
+          <div className="flex flex-col gap-4 col-span-5 ">
+            {/* Second item - medium height */}
+            <div className="bg-[#222] rounded-[16px]">
+              <Image src={three} className="w-full h-[376px]" alt="eight" />
+              <div className=" text-white py-8">
+                <h4 className="text-[40px] font-medium font-orbitron px-8">
+                  THE 0N1VERSE
+                </h4>
+                <p className="text-[20px] font-inconsolata font-medium w-[604px] px-8">
+                  0N1 Force sees the future of NFT ownership as cross-platform.
+                  We envision a digital social network with no boundaries.The
+                  Ethereal Enclave, within the 0N1VERSE, is an endless city, and
+                  it is the place where the 0N1 call home.
+                </p>
+                <div className="px-8">
+                  {" "}
+                  <button className="bg-primary px-8 h-[56px] font-inconsolata text-[20px] rounded-[61px] font-medium mt-8">
+                    See Lore
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            {/* Fourth item - much longer height */}
+            <div className="bg-[#222]  w-full rounded-[16px]">
+              <Image src={five} className="w-full h-[223px]" alt="eight" />
+              <div className="w-full py-8 text-white">
+                <h4 className="text-[40px] font-medium font-orbitron px-8">
+                  0N1 FRAMES
+                </h4>
+                <p className="text-[20px] font-inconsolata font-medium w-[604px] px-8">
+                  THE ORIGINAL 0N1 FORCE NFTS ARE THE KEY:As long as you own an
+                  original 0N1, the 0N1 FRAMES are free to claim + gas.
+                </p>
+                <div className="px-8">
+                  {" "}
+                  <button className="bg-primary px-8 h-[56px] font-inconsolata text-[20px] rounded-[61px] font-medium mt-8">
+                    Know more
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
