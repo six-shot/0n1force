@@ -48,10 +48,10 @@ export default function Info() {
                   Marketplace
                 </h4>
                 <p className="text-[20px] font-inconsolata font-medium px-8 ">
-                  0N1 FORCE and Origin Protocol are rewarding active community
-                  members
+                  0N1 FORCE and Origin Protocol are rewarding <br /> active
+                  community members
                 </p>
-                
+
                 <div className="px-8">
                   {" "}
                   <button className="bg-primary px-8 h-[56px] font-inconsolata text-[20px] rounded-[61px] font-medium mt-8">
@@ -67,14 +67,16 @@ export default function Info() {
                 <Image src={four} className="w-full h-[369px]" alt="eight" />
               </div>
               <div className="py-8 text-white bg-[#222]  rounded-b-[16px]">
-                <h4 className="text-[40px] font-medium font-orbitron px-8">COMIC</h4>
-                <p className="text-[20px] font-inconsolata font-medium px-8  w-[468px]">
+                <h4 className="text-[40px] font-medium font-orbitron px-8">
+                  COMIC
+                </h4>
+                <p className="text-[20px] font-inconsolata font-medium px-8  ">
                   <span className="text-primary">Cromagnus</span>, an in-house
-                  illustrator for the 0N1 Force project, is currently working
-                  with
-                  <span className="text-primary">Josh</span>{" "}
+                  illustrator for the 0N1 <br /> Force project, is currently
+                  working with{" "}
+                  <span className="text-primary">Josh</span> <br />
                   <span className="text-primary">Blaylock</span> to bring this
-                  world to life through an exclusive digital comic.
+                  world to life through <br /> an exclusive digital comic.
                 </p>
               </div>
             </div>
@@ -89,11 +91,13 @@ export default function Info() {
                 <h4 className="text-[40px] font-medium font-orbitron px-8">
                   THE 0N1VERSE
                 </h4>
-                <p className="text-[20px] font-inconsolata font-medium w-[604px] px-8">
-                  0N1 Force sees the future of NFT ownership as cross-platform.
-                  We envision a digital social network with no boundaries.The
-                  Ethereal Enclave, within the 0N1VERSE, is an endless city, and
-                  it is the place where the 0N1 call home.
+                <p className="text-[20px] font-inconsolata font-medium  px-8">
+                  0N1 Force sees the future of NFT ownership as cross-
+                  <br />
+                  platform. We envision a digital social network with no <br />{" "}
+                  boundaries.The Ethereal Enclave, within the 0N1VERSE, is an{" "}
+                  <br /> endless city, and it is the place where the 0N1 call
+                  home.
                 </p>
                 <div className="px-8">
                   {" "}
@@ -111,9 +115,9 @@ export default function Info() {
                 <h4 className="text-[40px] font-medium font-orbitron px-8">
                   0N1 FRAMES
                 </h4>
-                <p className="text-[20px] font-inconsolata font-medium w-[604px] px-8">
-                  THE ORIGINAL 0N1 FORCE NFTS ARE THE KEY:As long as you own an
-                  original 0N1, the 0N1 FRAMES are free to claim + gas.
+                <p className="text-[20px] font-inconsolata font-medium  px-8 ">
+                  THE ORIGINAL 0N1 FORCE NFTS ARE THE KEY:As long as you own{" "}
+                  <br /> an original 0N1, the 0N1 FRAMES are free to claim + gas
                 </p>
                 <div className="px-8">
                   {" "}
